@@ -8,16 +8,37 @@
     <link href="styles.css" type="text/css" rel="stylesheet">
 </head>
 <body class="bg-[rgb(238,174,202)] bg-radialBg flex justify-center items-center min-h-screen text-[#323249] flex-row">
-    <card class="flex justify-start items-start bg-white p-16 rounded-[35px] w-[1140px] relative min-h-[360px] overflow-hidden">
+    <card class="flex justify-start items-start bg-white p-16 rounded-[35px] w-full md:w-[1140px] relative min-h-[360px] overflow-hidden shadow-[0px_10px_15px_13px_rgba(157,178,224,0.63)]">
         
         <ul class="flex items-start justify-start w-full z-20">
             <li class="w-1/5 self-stretch min-w-[220px]">
-                <img class="w-auto h-24 drop-shadow-xl pl-8" src="https://neluttu.github.io/donate-card/ribbon.png">
+                <img class="w-auto h-24 drop-shadow-xl pl-4" src="https://neluttu.github.io/donate-card/ribbon.png">
             </li>
-            <li class="grow self-stretch">
+            <li class="">
                 <h1 class="text-[2.4rem] mb-10 font-semibold text-[#242e4c]">Your gift changes lifes</h1>
                 <p class="font-semibold text-[#646b81] text-xl">Pledge your support today so that we can<br>help more women in 2023.</p>
-
+                <ul class="mt-16 flex gap-2 items-center justify-start w-full flex-wrap">
+                    <li>
+                        <div class="text-center font-semibold text-[#a0add4] text-lg self-stretch bg-[#f5f7fd] rounded-lg px-10 py-6 cursor-pointer border-white border-2 transition-all duration-150 ease-in hover:bg-white hover:border-2 hover:border-[#729bff]">
+                            $5
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text-center font-semibold text-[#a0add4] text-lg self-stretch bg-[#f5f7fd] rounded-lg px-10 py-6 cursor-pointer border-white border-2 transition-all duration-150 ease-in hover:bg-white hover:border-2 hover:border-[#729bff]">
+                            $10
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text-center font-semibold text-[#a0add4] text-lg self-stretch bg-[#f5f7fd] rounded-lg px-10 py-6 cursor-pointer border-white border-2 transition-all duration-150 ease-in hover:bg-white hover:border-2 hover:border-[#729bff]">
+                            $15
+                        </div>
+                    </li>
+                    <li class="flex items-center justify-start gap-0">
+                        <div class="text-center inline-block rounded-lg font-semibold text-[#a0add4] text-lg self-stretch bg-[#f5f7fd] rounded-tr-none rounded-br-none px-6 py-6 cursor-pointer border-white border-2">$</div>
+                        <input type="text" placeholder="Amount" class="border-[1px] -ml-1 border-l-0 self-stretch border-slate-300 w-[100px] mt-[2px] mb-[2px] rounded-tr-lg rounded-br-lg text-center outline-none">
+                    </li>
+                </ul>
+                <button class="px-10 py-5 bg-[#ec1b6c] text-white font-semibold text-lg rounded-lg mt-10 hover:bg-[#729bff] transition-all duration-150 ease-in">DOANTE</button>
             </li>
         </ul>
         <svg class="absolute top-0 left-0 z-10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

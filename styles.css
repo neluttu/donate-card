@@ -609,6 +609,30 @@ header {
   top: 60px;
 }
 
+.left-\[40px\] {
+  left: 40px;
+}
+
+.left-\[60px\] {
+  left: 60px;
+}
+
+.top-\[40px\] {
+  top: 40px;
+}
+
+.left-\[80px\] {
+  left: 80px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -804,6 +828,30 @@ header {
 
 .w-\[1140px\] {
   width: 1140px;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-1\/5 {
+  width: 20%;
+}
+
+.min-w-\[140px\] {
+  min-width: 140px;
+}
+
+.min-w-\[220px\] {
+  min-width: 220px;
 }
 
 .max-w-2xl {
@@ -1022,6 +1070,11 @@ header {
   border-color: rgb(148 163 184 / var(--tw-border-opacity));
 }
 
+.border-slate-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 116 139 / var(--tw-border-opacity));
+}
+
 .bg-\[rgb\(238\2c 174\2c 202\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(238 174 202 / var(--tw-bg-opacity));
@@ -1081,6 +1134,10 @@ header {
 
 .p-24 {
   padding: 6rem;
+}
+
+.p-16 {
+  padding: 4rem;
 }
 
 .px-10 {
@@ -1155,6 +1212,10 @@ header {
   padding-top: 1.5rem;
 }
 
+.pl-8 {
+  padding-left: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1196,6 +1257,24 @@ header {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-\[2\.35rem\] {
+  font-size: 2.35rem;
+}
+
+.text-\[2\.4rem\] {
+  font-size: 2.4rem;
 }
 
 .font-bold {
@@ -1251,6 +1330,16 @@ header {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#242e4c\] {
+  --tw-text-opacity: 1;
+  color: rgb(36 46 76 / var(--tw-text-opacity));
+}
+
+.text-\[\#646b81\] {
+  --tw-text-opacity: 1;
+  color: rgb(100 107 129 / var(--tw-text-opacity));
 }
 
 .underline {
